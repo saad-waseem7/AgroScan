@@ -1,0 +1,208 @@
+\documentclass[12pt,a4paper]{article}
+
+% Packages 
+\usepackage[a4paper, margin=2.5cm, headheight=20pt]{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{colortbl}
+\usepackage{array}
+\usepackage{tcolorbox}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[T1]{fontenc}
+\usepackage{mdframed}
+\usepackage{pifont}
+\usepackage{lastpage}
+
+% Colors 
+\definecolor{primarynavy}{RGB}{20, 52, 100}
+\definecolor{accentslate}{RGB}{46, 117, 182}
+\definecolor{iceblue}{RGB}{240, 244, 248}
+\definecolor{charcoal}{RGB}{64, 64, 64}
+
+% Hyperref 
+\hypersetup{
+  colorlinks=true,
+  linkcolor=accentslate,
+  urlcolor=accentslate,
+  pdftitle={ArgoScan: AI-Driven Crop Diagnosis and Treatment Recommendation},
+}
+
+% Section Formatting 
+\titleformat{\section}{\Large\bfseries\color{primarynavy}}{}{0em}{}[{\color{accentslate}\titlerule[1.5pt]}]
+\titleformat{\subsection}{\large\bfseries\color{accentslate}}{}{0em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries\color{charcoal}}{}{0em}{}
+
+\titlespacing{\section}{0pt}{18pt}{8pt}
+\titlespacing{\subsection}{0pt}{12pt}{4pt}
+
+% Header / Footer 
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{charcoal} ArgoScan: AI-Driven Crop Disease Detection System}
+\fancyhead[R]{\small\color{charcoal} Project Documentation}
+\fancyfoot[C]{\small\color{charcoal} Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{accentslate}\leaders\hrule height \headrulewidth\hfill}}
+
+% tcolorbox styles 
+\tcbuselibrary{skins,breakable}
+\newtcolorbox{keybox}[1]{
+  colback=iceblue,
+  colframe=primarynavy,
+  fonttitle=\bfseries,
+  title=#1,
+  coltitle=white,
+  colbacktitle=primarynavy,
+  boxrule=0pt,
+  leftrule=4pt,
+  arc=2pt,
+  breakable
+}
+\newtcolorbox{infobox}[1]{
+  colback=iceblue,
+  colframe=accentslate,
+  fonttitle=\bfseries\color{white},
+  title=#1,
+  coltitle=white,
+  colbacktitle=accentslate,
+  boxrule=0.8pt,
+  arc=3pt,
+  breakable
+}
+
+\begin{document}
+\setstretch{1.25}
+
+% Title Page 
+\begin{titlepage}
+  \pagecolor{primarynavy}
+  \color{white}
+  \vspace*{1.5cm}
+  \begin{center}
+    {\fontsize{11}{13}\selectfont\texttt{PROJECT DOCUMENTATION \quad \textbullet \quad DELIVERABLE 1 REPORT}}\\[0.8cm]
+    {\fontsize{32}{38}\selectfont\bfseries ArgoScan: AI-Driven}\\[0.2cm]
+    {\fontsize{32}{38}\selectfont\bfseries Crop Diagnosis and}\\[0.2cm]
+    {\fontsize{32}{38}\selectfont\bfseries Treatment Recommendation}\\[1cm]
+    {\color{iceblue}\rule{10cm}{1pt}}\\[0.7cm]
+    {\large Problem Statement, Target Audience \& AI Justification}\\[2.5cm]
+
+    \resizebox{\textwidth}{!}{
+      \begin{tabular}{ll}
+        \toprule
+        \textbf{Course Title:}   & Artificial Intelligence \\
+        \midrule
+        \textbf{Member 1:}       & Bilal Ahmad \quad \texttt{(23L-2534)} \\
+        \textbf{Member 2:}       & Muhammad Saad \quad \texttt{(23L-2620)} \\
+        \midrule
+        \textbf{Submitted to:}   & Ms.\ Hajra Waheed \\
+        \bottomrule
+      \end{tabular}
+    }
+  \end{center}
+  \vfill
+  \begin{center}
+    {\color{iceblue}\rule{10cm}{0.5pt}}\\[0.4cm]
+    {\small Agriculture $\cdot$ Deep Learning $\cdot$ Computer Vision $\cdot$ Sustainable Farming}
+  \end{center}
+\end{titlepage}
+
+\nopagecolor
+\newpage
+
+\section{Problem Statement}
+
+Agriculture plays a critical role in global food security, yet crop diseases remain one of the major threats to agricultural productivity. Plant diseases caused by fungi, bacteria, viruses, and pests can significantly reduce crop yield and quality if not detected early.
+
+Farmers often rely on manual inspection of leaves to identify symptoms such as discoloration, spots, mold growth, or texture changes. However, accurate diagnosis requires agricultural expertise, and many farmers, especially in rural areas, may not have immediate access to plant pathologists or agricultural specialists.
+
+\begin{keybox}{Key Challenge}
+Misdiagnosis of crop diseases can lead to excessive use of chemical pesticides, increasing farming costs, causing environmental damage and soil degradation. Farmers often apply broad-spectrum chemicals without knowing the exact disease, resulting in ineffective treatment and long-term ecological harm.
+\end{keybox}
+
+To address this challenge, ArgoScan proposes an AI-powered system capable of automatically detecting crop diseases from leaf images. By analyzing visual patterns in plant leaves, the system can identify specific diseases and provide accurate classification results along with confidence scores.
+
+\subsection{Proposed Solution}
+
+The system will provide the following capabilities:
+
+\begin{itemize}[leftmargin=*, itemsep=5pt]
+  \item Automated detection of crop diseases from uploaded leaf images using deep learning
+  \item Accurate disease classification with confidence scores for each prediction
+  \item Recommendations for environmentally sustainable treatment methods, including biological control and organic disease management practices
+  \item Support for early disease detection to enable timely intervention
+  \item Reduced dependency on harmful broad-spectrum chemical pesticides
+\end{itemize}
+
+\section{Target Audience}
+
+The system is designed to serve multiple user groups across the agricultural ecosystem, from field-level farmers to research institutions.
+
+\vspace{8pt}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{4.2cm} >{\raggedright\arraybackslash}X}
+  \toprule
+  \rowcolor{primarynavy}
+  \color{white}\textbf{User Group} & \color{white}\textbf{Role \& Benefit} \\
+  \midrule
+  Farmers \& Agricultural Workers &
+  Primary users who need quick and reliable disease diagnosis. The web-based interface allows image uploads for instant detection results, enabling timely crop treatment decisions, particularly valuable in remote or rural areas. \\
+  \rowcolor{iceblue}
+  Agricultural Extension Officers \& Agronomists &
+  Secondary users who monitor crop health across regions. The system enables rapid identification of disease outbreaks and facilitates guidance delivery to farmers at scale. \\
+  Students \& Researchers &
+  Benefit from automated plant disease analysis for academic and scientific purposes in agriculture and plant pathology. \\
+  \bottomrule
+\end{tabularx}
+
+\section{AI Justification}
+
+Detecting plant diseases from leaf images is a complex visual recognition problem that involves identifying subtle variations in color, texture, and shape patterns on plant surfaces.
+
+\subsection{Limitations of Traditional Approaches}
+
+Traditional rule-based systems rely on manually defined thresholds, handcrafted features, or fixed pattern matching techniques. However, plant diseases often present diverse visual characteristics that vary depending on:
+
+\begin{itemize}[leftmargin=*, itemsep=5pt]
+  \item Lighting conditions during image capture
+  \item Leaf orientation and angle
+  \item Severity and progression stage of the disease
+  \item Crop species and leaf morphology
+\end{itemize}
+
+Because of this variability, rule-based approaches are unable to generalize effectively across large and diverse image datasets.
+
+\subsection{Deep Learning with Convolutional Neural Networks}
+
+Machine Learning, particularly Deep Learning using Convolutional Neural Networks (CNNs), provides a more robust solution for image-based disease detection. CNN models are capable of automatically learning hierarchical visual features from large datasets without requiring manual feature engineering.
+
+Through training on labeled leaf images, the model learns complex representations of disease symptoms such as lesions, discoloration patterns, and structural abnormalities.
+
+\subsection{Transfer Learning Approach}
+
+\begin{infobox}{Selected Model: MobileNetV2 (Pre-trained CNN via Transfer Learning)}
+Transfer learning allows the model to leverage knowledge learned from large-scale image datasets and adapt it to the specific task of plant disease classification. This approach significantly improves model accuracy while reducing computational requirements and training time.
+\end{infobox}
+
+\vspace{10pt}
+
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X}
+  \toprule
+  \rowcolor{primarynavy}
+  \color{white}\textbf{Traditional Rule-Based} & \color{white}\textbf{CNN / Transfer Learning} \\
+  \midrule
+  \rowcolor{iceblue}
+  Manual feature engineering required   & Automatic feature extraction from data \\
+  Poor generalization across datasets   & Strong generalization via learned representations \\
+  \rowcolor{iceblue}
+  Fixed pattern matching               & Adaptive learning from diverse examples \\
+  High maintenance overhead            & Reduced training time with pre-trained weights \\
+  \bottomrule
+\end{tabularx}
+
+\end{document}
