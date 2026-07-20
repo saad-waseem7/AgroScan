@@ -1,0 +1,397 @@
+
+/* ══════════════════════════════════════════════════════
+   PLANT DISEASE DETECTOR — GLOBAL STYLES
+   ══════════════════════════════════════════════════════ */
+
+/* ── Override Gradio Soft theme CSS variables to force light mode ── */
+:root, .dark {
+    --input-background-fill: #ffffff !important;
+    --input-text-color: #1a1a1a !important;
+    --input-placeholder-color: #888888 !important;
+    --input-border-color: #c8e6c9 !important;
+    --body-background-fill: #f0f7f2 !important;
+    --body-text-color: #1a1a1a !important;
+    --block-background-fill: #ffffff !important;
+    --block-label-background-fill: #2d7a4f !important;
+    --block-label-text-color: #ffffff !important;
+    --background-fill-primary: #ffffff !important;
+    --background-fill-secondary: #f0f7f2 !important;
+    --color-accent: #2d7a4f !important;
+    --color-accent-soft: #e8f5e9 !important;
+    --neutral-950: #1a1a1a !important;
+    --neutral-900: #212121 !important;
+    --neutral-800: #333333 !important;
+    --neutral-100: #f5f5f5 !important;
+    --neutral-50: #fafafa !important;
+    --border-color-primary: #c8e6c9 !important;
+    --shadow-drop-lg: 0 2px 10px rgba(0,0,0,0.08) !important;
+}
+
+/* ── Box sizing & selection ── */
+* { box-sizing: border-box; }
+::selection { background: #2d7a4f !important; color: #fff !important; }
+
+/* ── Container ── */
+.gradio-container {
+    max-width: 1100px !important;
+    margin: auto !important;
+    font-family: 'Segoe UI', Tahoma, sans-serif !important;
+    background: #f0f7f2 !important;
+}
+
+/* ── Kill Gradio's dark-mode overrides everywhere ── */
+.gradio-container,
+.gradio-container *,
+.block,
+.block *,
+.form,
+.form *,
+.tabs,
+.tabs * {
+    color-scheme: light !important;
+}
+
+/* ── Force ALL inputs/textareas to be light — beats Gradio theme ── */
+textarea,
+input[type="text"],
+input[type="search"],
+.scroll-hide,
+[data-testid="textbox"] textarea,
+[data-testid="textbox"] input {
+    background: #ffffff !important;
+    color: #1a1a1a !important;
+    caret-color: #1a1a1a !important;
+}
+[data-testid="textbox"] {
+    background: #ffffff !important;
+}
+
+/* ── Hide Gradio footer ── */
+footer { display: none !important; }
+
+/* ════════════════ HEADER ════════════════ */
+.header-section {
+    background: linear-gradient(135deg, #1b5e20 0%, #2d7a4f 55%, #52b788 100%);
+    padding: 2.6rem 2rem 2rem;
+    border-radius: 16px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1.4rem;
+    box-shadow: 0 8px 28px rgba(45,122,79,0.28);
+    animation: fadeDown 0.55s ease;
+}
+@keyframes fadeDown {
+    from { opacity:0; transform:translateY(-14px); }
+    to   { opacity:1; transform:translateY(0); }
+}
+.header-section h1 {
+    font-size: 2.3rem; font-weight: 800;
+    margin: 0.3rem 0 0.2rem; letter-spacing: -0.4px;
+}
+.header-section p {
+    font-size: 1rem; opacity: 0.93;
+    max-width: 540px; margin: 0 auto;
+}
+
+/* ════════════════ TABS ════════════════ */
+.tabs > .tab-nav {
+    border-bottom: 2px solid #b2dfdb !important;
+    background: #fff !important;
+}
+.tabs > .tab-nav button {
+    font-weight: 600 !important; font-size: 0.95rem !important;
+    color: #4a4a4a !important;
+    border-radius: 8px 8px 0 0 !important;
+    padding: 0.55rem 1.3rem !important;
+    background: transparent !important;
+    transition: all 0.2s ease !important;
+}
+.tabs > .tab-nav button.selected {
+    color: #1b5e20 !important;
+    border-bottom: 3px solid #2d7a4f !important;
+    background: #f0fdf4 !important;
+}
+
+/* ════════════════ UPLOAD ZONE ════════════════ */
+.upload-section {
+    border: 2.5px dashed #52b788 !important;
+    border-radius: 14px !important;
+    background: #fafffe !important;
+    transition: all 0.3s ease !important;
+}
+.upload-section:hover {
+    border-color: #1b5e20 !important;
+    background: #f0fdf4 !important;
+    box-shadow: 0 4px 16px rgba(45,122,79,0.13) !important;
+}
+
+/* ════════════════ ANALYZE BUTTON ════════════════ */
+.predict-button {
+    background: linear-gradient(135deg, #2d7a4f 0%, #52b788 100%) !important;
+    color: #fff !important; font-weight: 700 !important;
+    font-size: 1.05rem !important; border-radius: 50px !important;
+    border: none !important;
+    box-shadow: 0 4px 14px rgba(45,122,79,0.38) !important;
+    transition: all 0.28s ease !important;
+    letter-spacing: 0.3px !important;
+}
+.predict-button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 22px rgba(45,122,79,0.48) !important;
+}
+
+/* ════════════════ RESULT CARD ════════════════ */
+.result-card {
+    background: #ffffff !important;
+    border: 1px solid #c8e6c9 !important;
+    border-radius: 12px !important;
+    padding: 1.2rem !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06) !important;
+}
+
+/* Force ALL nested wrappers in result card to white */
+.result-card .block,
+.result-card .form,
+.result-card .wrap,
+.result-card .container,
+.result-card > div,
+.result-card > div > div,
+.result-card > div > div > div {
+    background: #ffffff !important;
+    border-color: #c8e6c9 !important;
+}
+
+/* Labels inside result card — green pill style */
+.result-card label span,
+.result-card .label-wrap span,
+.result-card span.svelte-1gfkn6j {
+    background: #2d7a4f !important;
+    color: #ffffff !important;
+    padding: 2px 10px !important;
+    border-radius: 20px !important;
+    font-size: 0.82rem !important;
+    font-weight: 600 !important;
+    display: inline-block !important;
+    margin-bottom: 4px !important;
+}
+
+/* Textareas in result card */
+.result-card textarea,
+.result-card input {
+    background: #f8fffe !important;
+    color: #1a1a1a !important;
+    border: 1.5px solid #c8e6c9 !important;
+    border-radius: 8px !important;
+    font-size: 0.97rem !important;
+    font-weight: 500 !important;
+}
+
+/* ════════════════ SECTION LABEL ════════════════ */
+.section-label {
+    font-size: 1.08rem; font-weight: 700;
+    color: #2d7a4f; margin-bottom: 0.5rem;
+}
+
+/* ════════════════ TREATMENT PANELS ════════════════ */
+.treatment-panel {
+    border-radius: 10px;
+    padding: 1rem 1.2rem 1rem 1rem;
+    animation: fadeUp 0.4s ease;
+    min-height: 160px;
+}
+.treatment-panel.bio { background: #e8f5e9; border-left: 5px solid #43a047; }
+.treatment-panel.org { background: #fff8e1; border-left: 5px solid #ffb300; }
+.treatment-panel.cul { background: #e3f2fd; border-left: 5px solid #1e88e5; }
+
+.treatment-panel h4 {
+    font-size: 0.95rem; font-weight: 700; margin: 0 0 0.7rem 0;
+}
+.treatment-panel.bio h4 { color: #2e7d32; }
+.treatment-panel.org h4 { color: #e65100; }
+.treatment-panel.cul h4 { color: #1565c0; }
+
+.treatment-list {
+    margin: 0; padding: 0 0 0 1.1rem;
+    list-style: disc;
+}
+.treatment-list li {
+    color: #1a1a1a !important;
+    font-size: 0.88rem;
+    line-height: 1.65;
+    margin-bottom: 0.35rem;
+}
+.treatment-placeholder {
+    color: #777 !important;
+    font-size: 0.87rem;
+    font-style: italic;
+    margin: 0.3rem 0 0 0;
+}
+
+@keyframes fadeUp {
+    from { opacity:0; transform:translateY(8px); }
+    to   { opacity:1; transform:translateY(0); }
+}
+
+/* ════════════════ STATUS BOX ════════════════ */
+.status-box,
+.status-box .block,
+.status-box .form,
+.status-box .wrap,
+.status-box > div {
+    background: #f0fdf4 !important;
+    border: 1px solid #a5d6a7 !important;
+    border-radius: 8px !important;
+}
+.status-box textarea {
+    background: #f0fdf4 !important;
+    color: #1b5e20 !important;
+    border: none !important;
+    font-weight: 600 !important;
+    font-size: 0.95rem !important;
+}
+
+/* ════════════════ CHATBOT TAB ════════════════ */
+
+/* Tip box */
+.tip-box {
+    background: #e8f5e9 !important;
+    border-left: 4px solid #2d7a4f;
+    border-radius: 10px;
+    padding: 0.9rem 1.1rem;
+    color: #1a3a1a !important;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+/* Chatbot container — force light background */
+.chatbot-area,
+.chatbot-area > div,
+.chatbot-area .wrap,
+.chatbot-area .block,
+[data-testid="chatbot"],
+[data-testid="chatbot"] > div {
+    background: #ffffff !important;
+    border: 1.5px solid #c8e6c9 !important;
+    border-radius: 12px !important;
+    color: #1a1a1a !important;
+}
+
+/* Empty state text */
+.chatbot-area .empty,
+.chatbot-area .placeholder,
+.chatbot-area .empty-message,
+[data-testid="chatbot"] .empty {
+    color: #888 !important;
+    background: #fff !important;
+}
+
+/* Message bubbles */
+.chatbot-area .message,
+[data-testid="chatbot"] .message { color: #1a1a1a !important; }
+
+/* Bot bubble — light green bg, always dark text */
+.chatbot-area .bot-message,
+[data-testid="chatbot"] .bot,
+[data-testid="chatbot"] [data-testid="bot"] {
+    background: #e8f5e9 !important;
+    color: #1a1a1a !important;
+    border-radius: 12px !important;
+}
+/* Every child element inside bot bubble must be dark */
+[data-testid="chatbot"] [data-testid="bot"],
+[data-testid="chatbot"] [data-testid="bot"] *,
+[data-testid="chatbot"] [data-testid="bot"] p,
+[data-testid="chatbot"] [data-testid="bot"] span,
+[data-testid="chatbot"] [data-testid="bot"] li,
+[data-testid="chatbot"] [data-testid="bot"] ol,
+[data-testid="chatbot"] [data-testid="bot"] ul,
+.chatbot-area .bot *,
+.chatbot-area .message.svelte-1s78gfg * {
+    color: #1a1a1a !important;
+}
+
+/* User bubble — dark green, always white text */
+.chatbot-area .user-message,
+[data-testid="chatbot"] .user,
+[data-testid="chatbot"] [data-testid="user"] {
+    background: #2d7a4f !important;
+    color: #ffffff !important;
+    border-radius: 12px !important;
+}
+[data-testid="chatbot"] [data-testid="user"] *,
+[data-testid="chatbot"] [data-testid="user"] p,
+[data-testid="chatbot"] [data-testid="user"] span {
+    color: #ffffff !important;
+}
+
+/* Chat input */
+.chat-input-row textarea,
+.chat-input-row input {
+    background: #fff !important;
+    color: #1a1a1a !important;
+    border: 1.5px solid #c8e6c9 !important;
+    border-radius: 10px !important;
+    font-size: 0.97rem !important;
+}
+
+/* Send button */
+.send-btn {
+    background: linear-gradient(135deg, #2d7a4f, #52b788) !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    border-radius: 10px !important;
+    border: none !important;
+}
+
+
+
+/* ════════════════ APP FOOTER ════════════════ */
+.app-footer {
+    background: linear-gradient(135deg, #1b5e20 0%, #2d7a4f 100%);
+    color: #fff; text-align: center;
+    padding: 1.1rem; border-radius: 12px;
+    margin-top: 1.4rem; font-size: 0.88rem; opacity: 0.94;
+}
+
+/* ── Ultimate Fix for Quick Questions (Examples) ── */
+
+/* Target the container to ensure it doesn't hide text */
+.gr-examples {
+    background: transparent !important;
+}
+
+/* Target the buttons AND the inner spans where the text actually lives */
+.gr-examples button, 
+.gr-examples button span,
+.gallery-item span {
+    color: #1a1a1a !important;      /* Force text to dark charcoal */
+    background-color: #ffffff !important; /* Force white background */
+    opacity: 1 !important;           /* Remove any transparency */
+}
+
+/* Style the button container itself */
+.gr-examples button {
+    border: 1.5px solid #c8e6c9 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05) !important;
+    padding: 4px 8px !important;
+    margin: 4px !important;
+}
+
+/* Change the background on hover so it feels interactive */
+.gr-examples button:hover,
+.gr-examples button:hover span {
+    background-color: #e8f5e9 !important;
+    border-color: #2d7a4f !important;
+    color: #1b5e20 !important;
+}
+
+/* Fix for the "Quick Questions" header specifically */
+.gr-examples .label-wrap, 
+.gr-examples .label-wrap span {
+    background: #2d7a4f !important;
+    color: #ffffff !important;
+    padding: 2px 10px !important;
+    border-radius: 4px !important;
+}
+

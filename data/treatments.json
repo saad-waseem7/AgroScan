@@ -1,0 +1,770 @@
+{
+  "Apple___Apple_scab": {
+    "biological": [
+      "Apply Bacillus subtilis-based biofungicides during early infection stages",
+      "Use copper-based organic fungicides as preventive measure",
+      "Introduce beneficial microorganisms to enhance plant immunity"
+    ],
+    "organic": [
+      "Apply neem oil spray (2-3%) weekly during wet periods",
+      "Use sulfur-based fungicides for prevention",
+      "Spray compost tea to boost plant defenses",
+      "Apply potassium bicarbonate solution (1%) bi-weekly"
+    ],
+    "cultural": [
+      "Remove and destroy infected leaves and fallen fruit immediately",
+      "Prune trees to improve air circulation and reduce humidity",
+      "Choose scab-resistant apple varieties for new plantings",
+      "Avoid overhead irrigation; use drip irrigation instead",
+      "Maintain proper spacing between trees (12-15 feet minimum)"
+    ]
+  },
+  "Apple___Black_rot": {
+    "biological": [
+      "Apply Trichoderma harzianum to suppress fungal growth",
+      "Use Streptomyces-based biocontrol agents on affected areas",
+      "Introduce mycorrhizal fungi to strengthen root systems"
+    ],
+    "organic": [
+      "Apply copper fungicide during dormant season",
+      "Use bordeaux mixture as preventive treatment",
+      "Spray garlic extract solution (diluted 1:10) monthly",
+      "Apply sulfur dust on affected branches"
+    ],
+    "cultural": [
+      "Prune out infected branches at least 8 inches below visible symptoms",
+      "Remove mummified fruits from tree and ground",
+      "Sanitize pruning tools with 10% bleach solution between cuts",
+      "Improve drainage to reduce moisture stress",
+      "Apply balanced fertilization to maintain tree vigor"
+    ]
+  },
+  "Apple___Cedar_apple_rust": {
+    "biological": [
+      "Apply Bacillus amyloliquefaciens to reduce infection severity",
+      "Use beneficial bacteria to compete with rust fungi",
+      "Introduce Pseudomonas fluorescens for disease suppression"
+    ],
+    "organic": [
+      "Apply sulfur fungicide every 7-10 days during wet spring weather",
+      "Use neem oil (3%) with liquid soap as spreader",
+      "Spray wettable sulfur starting at green tip stage",
+      "Apply lime sulfur during dormant season"
+    ],
+    "cultural": [
+      "Remove nearby cedar/juniper trees within 200 yards if possible",
+      "Plant rust-resistant apple varieties",
+      "Ensure good air circulation through proper pruning",
+      "Avoid planting apples near cedar windbreaks",
+      "Water at base of tree, not overhead"
+    ]
+  },
+  "Apple___healthy": {
+    "biological": [
+      "Maintain healthy soil microbiome with compost additions",
+      "Apply mycorrhizal inoculants during planting",
+      "Use beneficial nematodes to control soil pests"
+    ],
+    "organic": [
+      "Apply balanced organic fertilizer (NPK 5-5-5) in early spring",
+      "Mulch with wood chips to retain moisture and suppress weeds",
+      "Use foliar spray of fish emulsion monthly during growing season",
+      "Apply seaweed extract to boost plant immunity"
+    ],
+    "cultural": [
+      "Maintain proper pruning schedule for optimal fruit production",
+      "Monitor regularly for early signs of pests or disease",
+      "Ensure adequate spacing and air circulation",
+      "Practice crop rotation in home orchards",
+      "Keep orchard floor clean of debris and fallen fruit"
+    ]
+  },
+  "Blueberry___healthy": {
+    "biological": [
+      "Maintain acidic soil pH (4.5-5.5) for optimal plant health",
+      "Apply mycorrhizal fungi to enhance nutrient uptake",
+      "Use compost tea to support beneficial soil microorganisms"
+    ],
+    "organic": [
+      "Mulch heavily with pine bark or pine needles to maintain acidity",
+      "Apply sulfur to lower soil pH if needed",
+      "Use fish emulsion fertilizer monthly during growing season",
+      "Apply diluted apple cider vinegar (1 tbsp per gallon) for pH maintenance"
+    ],
+    "cultural": [
+      "Prune annually to remove old canes and maintain vigor",
+      "Use drip irrigation to maintain consistent soil moisture",
+      "Monitor soil pH regularly and adjust as needed",
+      "Plant multiple varieties for better pollination and yield",
+      "Protect from birds with netting during fruiting season"
+    ]
+  },
+  "Cherry_(including_sour)___Powdery_mildew": {
+    "biological": [
+      "Apply Bacillus subtilis-based fungicides at first sign of infection",
+      "Use Ampelomyces quisqualis (parasitic fungus) to control mildew",
+      "Introduce beneficial bacteria to outcompete mildew spores"
+    ],
+    "organic": [
+      "Spray potassium bicarbonate solution (1 tbsp per gallon) weekly",
+      "Apply neem oil (2%) with horticultural oil",
+      "Use milk spray (1 part milk to 9 parts water) twice weekly",
+      "Apply sulfur fungicide before symptoms appear"
+    ],
+    "cultural": [
+      "Prune to improve air circulation and light penetration",
+      "Avoid overhead watering; water at base in morning",
+      "Remove and destroy heavily infected leaves and shoots",
+      "Plant resistant cherry varieties when possible",
+      "Space trees adequately (20-25 feet apart minimum)"
+    ]
+  },
+  "Cherry_(including_sour)___healthy": {
+    "biological": [
+      "Apply compost to build healthy soil ecosystem",
+      "Use mycorrhizal inoculants when planting new trees",
+      "Introduce beneficial insects for natural pest control"
+    ],
+    "organic": [
+      "Apply balanced organic fertilizer in early spring",
+      "Mulch around base with wood chips (4-6 inches deep)",
+      "Spray seaweed extract monthly to boost tree immunity",
+      "Use compost tea as foliar feed during growing season"
+    ],
+    "cultural": [
+      "Prune annually to maintain open canopy structure",
+      "Monitor for pests and diseases regularly",
+      "Thin fruit to ensure proper size and reduce disease pressure",
+      "Protect ripening fruit from birds with netting",
+      "Maintain weed-free zone around tree base"
+    ]
+  },
+  "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+    "biological": [
+      "Apply Bacillus subtilis to suppress fungal development",
+      "Use Trichoderma species as biocontrol agents",
+      "Introduce beneficial bacteria to compete with pathogens"
+    ],
+    "organic": [
+      "Spray copper-based fungicides at early disease stages",
+      "Apply neem oil (2%) with liquid soap every 7-10 days",
+      "Use compost tea to boost plant immune response",
+      "Apply sulfur fungicide as preventive measure"
+    ],
+    "cultural": [
+      "Rotate corn with non-host crops (soybeans, small grains)",
+      "Till soil to bury infected crop residue",
+      "Plant resistant or tolerant corn hybrids",
+      "Avoid planting in fields with high disease history",
+      "Ensure adequate plant spacing for air circulation"
+    ]
+  },
+  "Corn_(maize)___Common_rust_": {
+    "biological": [
+      "Apply Bacillus-based biofungicides preventively",
+      "Use plant growth-promoting rhizobacteria to enhance resistance",
+      "Introduce beneficial microorganisms to soil"
+    ],
+    "organic": [
+      "Apply sulfur fungicide at first sign of rust pustules",
+      "Use neem oil spray every 7 days during humid periods",
+      "Apply copper-based fungicides for moderate infections",
+      "Spray potassium bicarbonate solution as preventive measure"
+    ],
+    "cultural": [
+      "Plant rust-resistant corn varieties",
+      "Plant early to avoid peak rust seasons",
+      "Monitor fields regularly for early detection",
+      "Ensure proper plant nutrition to reduce susceptibility",
+      "Remove volunteer corn plants that may harbor rust spores"
+    ]
+  },
+  "Corn_(maize)___Northern_Leaf_Blight": {
+    "biological": [
+      "Apply Trichoderma harzianum as seed treatment",
+      "Use Bacillus subtilis to suppress lesion development",
+      "Introduce mycorrhizal fungi for plant health support"
+    ],
+    "organic": [
+      "Spray copper fungicide at early tasseling stage",
+      "Apply neem oil during humid, warm conditions",
+      "Use compost tea to boost natural defenses",
+      "Apply sulfur fungicide preventively"
+    ],
+    "cultural": [
+      "Choose resistant corn hybrids for planting",
+      "Rotate with non-host crops for at least one season",
+      "Till crop residues after harvest to reduce inoculum",
+      "Avoid dense plant populations",
+      "Ensure balanced fertilization especially nitrogen"
+    ]
+  },
+  "Corn_(maize)___healthy": {
+    "biological": [
+      "Apply mycorrhizal inoculants at planting",
+      "Use nitrogen-fixing bacteria to support plant nutrition",
+      "Maintain healthy soil microbiome"
+    ],
+    "organic": [
+      "Apply compost or well-rotted manure before planting",
+      "Use balanced organic fertilizer during growing season",
+      "Mulch between rows to conserve moisture",
+      "Apply seaweed extract for micronutrient support"
+    ],
+    "cultural": [
+      "Plant at proper density for good air circulation",
+      "Rotate crops to maintain soil health",
+      "Monitor regularly for early pest and disease signs",
+      "Ensure adequate soil drainage",
+      "Time irrigation to avoid prolonged leaf wetness"
+    ]
+  },
+  "Grape___Black_rot": {
+    "biological": [
+      "Apply Bacillus subtilis at early season for prevention",
+      "Use Trichoderma-based products on infected areas",
+      "Introduce beneficial fungi to compete with black rot pathogen"
+    ],
+    "organic": [
+      "Spray copper fungicide every 10-14 days from bud break",
+      "Apply lime-sulfur during dormant season",
+      "Use neem oil (2-3%) during growing season",
+      "Apply potassium bicarbonate at first sign of infection"
+    ],
+    "cultural": [
+      "Remove and destroy all mummified berries and infected canes",
+      "Prune to open canopy and improve air circulation",
+      "Apply fungicides during critical wet periods",
+      "Avoid wetting foliage when irrigating",
+      "Maintain proper trellising for vine support and airflow"
+    ]
+  },
+  "Grape___Esca_(Black_Measles)": {
+    "biological": [
+      "Apply Trichoderma to pruning wounds immediately",
+      "Use Bacillus subtilis to protect wound sites",
+      "Introduce biological wound protectants after pruning"
+    ],
+    "organic": [
+      "Treat pruning wounds with wound sealant or copper paste",
+      "Apply bordeaux mixture to protect cuts",
+      "Use garlic extract sprays during growing season",
+      "Apply neem oil for general plant health support"
+    ],
+    "cultural": [
+      "Prune during dry weather to minimize infection risk",
+      "Remove and destroy severely infected vines",
+      "Avoid large pruning wounds when possible",
+      "Delay pruning until late in dormant season",
+      "Maintain vine vigor through proper nutrition and irrigation"
+    ]
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "biological": [
+      "Apply Bacillus amyloliquefaciens for disease suppression",
+      "Use beneficial microorganisms to compete with pathogen",
+      "Introduce Trichoderma to soil around vine base"
+    ],
+    "organic": [
+      "Spray copper fungicide at 10-14 day intervals",
+      "Apply neem oil during early infection stages",
+      "Use compost tea as foliar spray to boost immunity",
+      "Apply potassium bicarbonate for mild infections"
+    ],
+    "cultural": [
+      "Prune canopy to improve light penetration and air flow",
+      "Remove infected leaves and dispose of properly",
+      "Avoid excessive nitrogen fertilization",
+      "Implement proper trellising system",
+      "Ensure good drainage around vine roots"
+    ]
+  },
+  "Grape___healthy": {
+    "biological": [
+      "Apply mycorrhizal inoculants to support nutrient uptake",
+      "Use compost tea to maintain soil microbial health",
+      "Introduce beneficial insects for pest control"
+    ],
+    "organic": [
+      "Apply balanced organic fertilizer in spring",
+      "Mulch around vine base with wood chips",
+      "Use compost to improve soil structure",
+      "Apply seaweed extract monthly during growing season"
+    ],
+    "cultural": [
+      "Prune annually for optimal fruit production",
+      "Train vines on proper trellis system",
+      "Monitor regularly for pests and diseases",
+      "Ensure adequate water supply without over-irrigation",
+      "Harvest at proper ripeness to maintain vine health"
+    ]
+  },
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "biological": [
+      "Apply beneficial microorganisms to enhance tree immunity",
+      "Use biocontrol agents against Asian citrus psyllid vector",
+      "Introduce natural predators of citrus psyllid"
+    ],
+    "organic": [
+      "Spray neem oil to control psyllid vector populations",
+      "Apply insecticidal soap for psyllid management",
+      "Use kaolin clay spray to deter psyllid landing",
+      "Apply organic micronutrients (zinc, manganese) to support health"
+    ],
+    "cultural": [
+      "Remove and destroy infected trees to prevent spread",
+      "Control Asian citrus psyllid populations aggressively",
+      "Use certified disease-free planting material only",
+      "Implement strict quarantine measures",
+      "Monitor orchards frequently for psyllid and symptoms"
+    ]
+  },
+  "Peach___Bacterial_spot": {
+    "biological": [
+      "Apply Bacillus subtilis sprays during bloom period",
+      "Use copper-tolerant biological agents",
+      "Introduce beneficial bacteria to suppress pathogen growth"
+    ],
+    "organic": [
+      "Apply copper bactericide at petal fall and every 10 days",
+      "Use oxytetracycline (if organically approved in region)",
+      "Spray lime-sulfur during dormant season",
+      "Apply compost tea to boost plant immunity"
+    ],
+    "cultural": [
+      "Plant resistant or tolerant peach varieties",
+      "Avoid overhead irrigation; use drip systems",
+      "Prune to improve air circulation in canopy",
+      "Avoid excessive nitrogen which increases susceptibility",
+      "Remove and dispose of infected fruit and leaves"
+    ]
+  },
+  "Peach___healthy": {
+    "biological": [
+      "Apply mycorrhizal inoculants at planting",
+      "Use compost to build healthy soil ecosystem",
+      "Introduce beneficial insects for pest control"
+    ],
+    "organic": [
+      "Apply balanced organic fertilizer in early spring",
+      "Mulch around tree base with wood chips",
+      "Spray seaweed extract for micronutrient supply",
+      "Use compost tea as foliar feed"
+    ],
+    "cultural": [
+      "Prune annually in late winter for optimal production",
+      "Thin fruit to improve size and reduce disease pressure",
+      "Monitor for pests and diseases regularly",
+      "Maintain proper irrigation schedule",
+      "Keep ground clear of fallen fruit and debris"
+    ]
+  },
+  "Pepper,_bell___Bacterial_spot": {
+    "biological": [
+      "Apply Bacillus subtilis preventively before disease appears",
+      "Use Pseudomonas fluorescens as biocontrol agent",
+      "Treat seeds with biological agents before planting"
+    ],
+    "organic": [
+      "Spray copper bactericide every 7-10 days during wet weather",
+      "Apply copper hydroxide for established infections",
+      "Use compost tea to boost plant immune response",
+      "Apply neem oil for general plant health support"
+    ],
+    "cultural": [
+      "Use certified disease-free or treated seeds",
+      "Rotate peppers with non-solanaceous crops for 2-3 years",
+      "Avoid overhead irrigation; use drip systems",
+      "Remove and destroy infected plant debris after harvest",
+      "Avoid working with plants when foliage is wet"
+    ]
+  },
+  "Pepper,_bell___healthy": {
+    "biological": [
+      "Apply mycorrhizal fungi at transplanting",
+      "Use beneficial bacteria to promote root health",
+      "Maintain healthy soil microbiome with compost"
+    ],
+    "organic": [
+      "Apply balanced organic fertilizer regularly",
+      "Mulch around plants to conserve soil moisture",
+      "Use fish emulsion as foliar feed monthly",
+      "Apply compost tea to boost plant vigor"
+    ],
+    "cultural": [
+      "Stake plants for support as they grow",
+      "Water consistently at soil level",
+      "Monitor regularly for aphids and other pests",
+      "Ensure adequate spacing for air circulation",
+      "Harvest regularly to encourage continued fruit production"
+    ]
+  },
+  "Potato___Early_blight": {
+    "biological": [
+      "Apply Bacillus subtilis at first sign of disease",
+      "Use Trichoderma harzianum to suppress fungal growth",
+      "Apply beneficial microorganisms to soil around plants"
+    ],
+    "organic": [
+      "Spray copper fungicide every 7-10 days during warm, wet weather",
+      "Apply neem oil (2%) with liquid soap weekly",
+      "Use compost tea as foliar spray to boost immunity",
+      "Apply sulfur fungicide preventively"
+    ],
+    "cultural": [
+      "Rotate potatoes with non-solanaceous crops for 2-3 years",
+      "Remove infected lower leaves promptly",
+      "Avoid overhead irrigation; use drip systems",
+      "Hill soil around plants to protect tubers",
+      "Harvest during dry weather to prevent storage rots"
+    ]
+  },
+  "Potato___Late_blight": {
+    "biological": [
+      "Apply Bacillus subtilis before infection periods",
+      "Use copper-based biological treatments",
+      "Introduce beneficial microorganisms to enhance plant resistance"
+    ],
+    "organic": [
+      "Apply copper fungicide immediately at first sign of disease",
+      "Spray bordeaux mixture preventively during cool, wet periods",
+      "Use phosphorous acid (if approved) for systemic protection",
+      "Apply copper hydroxide every 5-7 days during epidemic conditions"
+    ],
+    "cultural": [
+      "Plant certified disease-free seed potatoes only",
+      "Choose late blight resistant varieties",
+      "Destroy all infected plant material (do not compost)",
+      "Hill soil high around plants to protect tubers",
+      "Harvest as soon as practical when disease is present",
+      "Store tubers in cool, dry conditions"
+    ]
+  },
+  "Potato___healthy": {
+    "biological": [
+      "Apply mycorrhizal inoculants to seed pieces before planting",
+      "Use Trichoderma as soil treatment to prevent root diseases",
+      "Maintain healthy soil biology with compost"
+    ],
+    "organic": [
+      "Apply balanced organic fertilizer at planting",
+      "Use compost or aged manure to improve soil health",
+      "Mulch between rows to conserve moisture",
+      "Apply seaweed extract for micronutrient support"
+    ],
+    "cultural": [
+      "Plant certified disease-free seed potatoes",
+      "Hill regularly to protect tubers from light and disease",
+      "Monitor regularly for Colorado potato beetle and other pests",
+      "Rotate crops annually to prevent soilborne disease buildup",
+      "Harvest in dry conditions for best storage quality"
+    ]
+  },
+  "Raspberry___healthy": {
+    "biological": [
+      "Apply mycorrhizal inoculants at planting",
+      "Use compost tea to support soil microbial health",
+      "Introduce beneficial insects for pest control"
+    ],
+    "organic": [
+      "Apply balanced organic fertilizer in early spring",
+      "Mulch heavily with wood chips or straw",
+      "Use fish emulsion as foliar feed monthly",
+      "Apply seaweed extract to boost plant immunity"
+    ],
+    "cultural": [
+      "Prune out old fruiting canes after harvest",
+      "Thin new canes to 4-6 per foot of row",
+      "Support canes with trellis system",
+      "Water consistently but avoid waterlogging",
+      "Monitor regularly for pests and diseases"
+    ]
+  },
+  "Soybean___healthy": {
+    "biological": [
+      "Inoculate seeds with Rhizobium bacteria for nitrogen fixation",
+      "Apply mycorrhizal inoculants to enhance nutrient uptake",
+      "Use Bacillus subtilis as protective seed treatment"
+    ],
+    "organic": [
+      "Apply phosphorus and potassium fertilizers based on soil test",
+      "Use compost to improve soil organic matter",
+      "Apply seaweed extract for micronutrient supply",
+      "Use fish emulsion during early growth stages"
+    ],
+    "cultural": [
+      "Rotate with corn or other non-legume crops",
+      "Plant at proper density for optimal yield",
+      "Monitor for soybean cyst nematode and other pests",
+      "Ensure proper soil drainage",
+      "Scout regularly for insect pests during pod fill"
+    ]
+  },
+  "Squash___Powdery_mildew": {
+    "biological": [
+      "Apply Bacillus subtilis at first sign of white powdery patches",
+      "Use Ampelomyces quisqualis for biological control",
+      "Introduce beneficial microorganisms to compete with mildew"
+    ],
+    "organic": [
+      "Spray potassium bicarbonate solution (1 tbsp per gallon) weekly",
+      "Apply neem oil (2%) with horticultural soap",
+      "Use milk spray (40% milk, 60% water) twice weekly",
+      "Apply sulfur fungicide in early morning"
+    ],
+    "cultural": [
+      "Plant powdery mildew-resistant squash varieties",
+      "Ensure wide spacing for excellent air circulation",
+      "Water at base of plants in morning; avoid wetting leaves",
+      "Remove and destroy infected leaves immediately",
+      "Avoid excessive nitrogen fertilization"
+    ]
+  },
+  "Strawberry___Leaf_scorch": {
+    "biological": [
+      "Apply Bacillus subtilis to suppress fungal development",
+      "Use Trichoderma-based products around plant base",
+      "Introduce beneficial soil microorganisms"
+    ],
+    "organic": [
+      "Spray copper fungicide every 10-14 days during wet weather",
+      "Apply neem oil (2%) as preventive treatment",
+      "Use compost tea to boost plant immune system",
+      "Apply sulfur fungicide at first sign of symptoms"
+    ],
+    "cultural": [
+      "Remove and destroy infected leaves promptly",
+      "Avoid overhead irrigation; use drip systems",
+      "Renovate beds after harvest by mowing and thinning",
+      "Plant resistant varieties when available",
+      "Ensure adequate plant spacing for air circulation"
+    ]
+  },
+  "Strawberry___healthy": {
+    "biological": [
+      "Apply mycorrhizal inoculants at planting",
+      "Use compost tea to support soil health",
+      "Introduce predatory mites to control spider mites"
+    ],
+    "organic": [
+      "Apply balanced organic fertilizer in early spring",
+      "Mulch with straw to conserve moisture and suppress weeds",
+      "Use fish emulsion as foliar feed monthly",
+      "Apply seaweed extract to boost plant vigor"
+    ],
+    "cultural": [
+      "Renovate beds annually after harvest",
+      "Remove runners to maintain plant vigor",
+      "Monitor for slug and snail damage",
+      "Ensure well-draining soil to prevent crown rot",
+      "Replace plants every 3-4 years to maintain productivity"
+    ]
+  },
+  "Tomato___Bacterial_spot": {
+    "biological": [
+      "Apply Bacillus subtilis preventively at transplanting",
+      "Use copper-tolerant biological bactericides",
+      "Treat seeds with hot water (50°C for 25 minutes) before planting"
+    ],
+    "organic": [
+      "Spray copper bactericide every 7-10 days during wet weather",
+      "Apply copper hydroxide at first sign of symptoms",
+      "Use compost tea to boost plant immunity",
+      "Apply neem oil for general disease suppression"
+    ],
+    "cultural": [
+      "Use certified disease-free seeds and transplants",
+      "Rotate tomatoes with non-solanaceous crops for 2-3 years",
+      "Avoid overhead irrigation; use drip systems",
+      "Remove infected plant debris thoroughly",
+      "Avoid working with plants when leaves are wet"
+    ]
+  },
+  "Tomato___Early_blight": {
+    "biological": [
+      "Apply Bacillus subtilis at first sign of lower leaf spotting",
+      "Use Trichoderma harzianum to suppress fungal development",
+      "Apply compost tea to boost plant immune response"
+    ],
+    "organic": [
+      "Spray copper fungicide every 7-10 days during warm, wet weather",
+      "Apply neem oil (2%) with liquid soap weekly",
+      "Use sulfur fungicide as preventive measure",
+      "Apply potassium bicarbonate for mild infections"
+    ],
+    "cultural": [
+      "Remove infected lower leaves promptly",
+      "Mulch heavily to prevent soil splash onto leaves",
+      "Water at soil level; avoid wetting foliage",
+      "Stake or cage plants for better air circulation",
+      "Rotate tomatoes annually with non-solanaceous crops"
+    ]
+  },
+  "Tomato___Late_blight": {
+    "biological": [
+      "Apply Bacillus subtilis preventively during cool, wet periods",
+      "Use phosphorous acid (if organically approved) for protection",
+      "Introduce beneficial microorganisms to boost plant resistance"
+    ],
+    "organic": [
+      "Apply copper fungicide immediately at first sign of disease",
+      "Spray bordeaux mixture every 5-7 days during epidemic conditions",
+      "Use copper hydroxide for established infections",
+      "Apply organic systemic resistance inducers"
+    ],
+    "cultural": [
+      "Remove and destroy all infected plant material immediately",
+      "Avoid overhead irrigation; use drip systems",
+      "Stake plants for air circulation",
+      "Plant resistant tomato varieties",
+      "Harvest green tomatoes if disease is severe",
+      "Never compost infected material"
+    ]
+  },
+  "Tomato___Leaf_Mold": {
+    "biological": [
+      "Apply Bacillus subtilis to suppress fungal spore germination",
+      "Use Trichoderma-based products as preventive treatment",
+      "Introduce beneficial fungi to compete with leaf mold"
+    ],
+    "organic": [
+      "Spray copper fungicide every 7-10 days in humid conditions",
+      "Apply neem oil (2%) with horticultural soap",
+      "Use sulfur fungicide preventively",
+      "Apply potassium bicarbonate at first sign of symptoms"
+    ],
+    "cultural": [
+      "Increase ventilation in greenhouses or tunnels",
+      "Reduce humidity by adjusting irrigation timing",
+      "Remove infected leaves and dispose of properly",
+      "Stake and prune plants for maximum air circulation",
+      "Avoid working with plants when leaves are wet"
+    ]
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "biological": [
+      "Apply Bacillus subtilis at first sign of leaf spots",
+      "Use Trichoderma species for soil-based protection",
+      "Apply compost tea as regular foliar spray"
+    ],
+    "organic": [
+      "Spray copper fungicide every 7-10 days during warm, wet weather",
+      "Apply neem oil (2%) with liquid soap weekly",
+      "Use sulfur fungicide preventively",
+      "Apply potassium bicarbonate solution bi-weekly"
+    ],
+    "cultural": [
+      "Remove infected lower leaves as soon as spotted",
+      "Mulch heavily to prevent soil splash",
+      "Avoid overhead irrigation",
+      "Rotate tomatoes with non-solanaceous crops for 2+ years",
+      "Destroy all plant debris after harvest"
+    ]
+  },
+  "Tomato___Spider_mites Two-spotted_spider_mite": {
+    "biological": [
+      "Introduce predatory mites (Phytoseiulus persimilis) for biological control",
+      "Apply Beauveria bassiana (entomopathogenic fungus) sprays",
+      "Use lacewings and ladybugs for natural predation"
+    ],
+    "organic": [
+      "Spray insecticidal soap every 3-5 days for 2 weeks",
+      "Apply neem oil (2%) with liquid soap weekly",
+      "Use rosemary oil spray as repellent",
+      "Apply diatomaceous earth around plant base"
+    ],
+    "cultural": [
+      "Increase humidity around plants (mites prefer dry conditions)",
+      "Spray plants with strong water jet to dislodge mites",
+      "Remove heavily infested leaves and dispose of properly",
+      "Avoid excessive nitrogen fertilization which favors mites",
+      "Monitor undersides of leaves regularly for early detection"
+    ]
+  },
+  "Tomato___Target_Spot": {
+    "biological": [
+      "Apply Bacillus subtilis at first sign of target-like lesions",
+      "Use Trichoderma harzianum as preventive soil treatment",
+      "Apply compost tea to boost plant natural defenses"
+    ],
+    "organic": [
+      "Spray copper fungicide every 7-10 days",
+      "Apply neem oil (2%) with liquid soap weekly",
+      "Use potassium bicarbonate solution bi-weekly",
+      "Apply bordeaux mixture for severe infections"
+    ],
+    "cultural": [
+      "Practice crop rotation with non-solanaceous crops",
+      "Improve air circulation through proper spacing and staking",
+      "Remove infected lower leaves and fruit",
+      "Mulch to reduce soil splash",
+      "Avoid overhead irrigation; use drip systems",
+      "Destroy plant debris after harvest"
+    ]
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "biological": [
+      "Introduce natural predators of whiteflies (Encarsia formosa)",
+      "Use entomopathogenic fungi against whitefly populations",
+      "Apply beneficial bacteria to enhance plant tolerance"
+    ],
+    "organic": [
+      "Spray neem oil to control whitefly vectors",
+      "Apply insecticidal soap for whitefly management",
+      "Use yellow sticky traps to monitor and reduce whiteflies",
+      "Apply kaolin clay to deter whitefly landing"
+    ],
+    "cultural": [
+      "Remove and destroy infected plants immediately",
+      "Use virus-resistant tomato varieties",
+      "Install fine mesh screens in greenhouses to exclude whiteflies",
+      "Use reflective mulches to repel whiteflies",
+      "Remove weeds that host whiteflies",
+      "Plant trap crops away from main tomato crop",
+      "Time planting to avoid peak whitefly populations"
+    ]
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "biological": [
+      "Use certified virus-free transplants only",
+      "Apply beneficial microorganisms to support plant health",
+      "Introduce beneficial insects for general pest control"
+    ],
+    "organic": [
+      "Spray milk solution (1:9 milk to water) to coat leaves",
+      "Apply compost tea to boost plant immunity",
+      "Use seaweed extract to enhance plant vigor",
+      "No direct organic cure; focus on prevention and plant health"
+    ],
+    "cultural": [
+      "Plant resistant tomato varieties",
+      "Wash hands with soap before handling plants",
+      "Disinfect tools with 10% bleach solution",
+      "Remove and destroy infected plants",
+      "Avoid tobacco use around tomatoes (virus can transfer)",
+      "Control aphids which can spread the virus",
+      "Use clean stakes and supports each season"
+    ]
+  },
+  "Tomato___healthy": {
+    "biological": [
+      "Apply mycorrhizal fungi at transplanting",
+      "Use beneficial bacteria to promote root and plant health",
+      "Maintain healthy soil biology with compost additions"
+    ],
+    "organic": [
+      "Apply balanced organic fertilizer at planting and during fruiting",
+      "Mulch with straw or wood chips to conserve moisture",
+      "Use fish emulsion or compost tea as foliar feed",
+      "Apply calcium (crushed eggshells or lime) to prevent blossom end rot"
+    ],
+    "cultural": [
+      "Stake or cage plants for support and air circulation",
+      "Prune suckers for determinate varieties; manage growth for indeterminate",
+      "Water consistently at soil level; avoid wetting foliage",
+      "Monitor regularly for early pest and disease detection",
+      "Harvest ripe fruit promptly to encourage continued production",
+      "Rotate planting location annually"
+    ]
+  }
+}
